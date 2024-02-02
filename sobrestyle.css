@@ -1,0 +1,51 @@
+section h1 a{
+    color: black;
+    text-align: center;
+    align-items: auto;
+    
+       
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 15px;
+        margin: auto;
+        padding: auto auto;
+    
+    }
+}
+
+
+body{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    background-color: #c8d6ca; 
+    margin: 15px;   
+    padding: auto;
+
+}
+
+
+section a{
+    text-align: center;
+    margin: 15%;
+    
+}
+
+.center{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+div{
+
+ align-items: center;
+ border-style: groove;
+ margin: 15px;
+}

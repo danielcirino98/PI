@@ -1,0 +1,371 @@
+
+  .main-content {
+    width: 50%;
+    margin: 0 auto;
+  } 
+  
+
+body {
+    font-size: 16px;
+    background-color: gray;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 15px;
+        margin: auto;
+        padding: auto auto;
+    
+    }
+}
+
+img{ /*imagem da grade */
+   align-items: center;
+   justify-content: space-between;
+   width: 140px;
+   height: 130px;
+ 
+}
+
+body ul li{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: left;
+    padding: auto;
+    border-color: aqua;
+    margin: 0 auto;
+    
+
+}
+
+body h1{
+     text-align: left;
+
+}
+div h2{
+    display: flex;
+    border-color: rgb(255, 102, 0);
+    justify-content: center;
+
+
+}
+
+button{ 
+    color: rgb(194, 5, 5); 
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    width: 150px;
+    height: 160px;  
+}
+
+h1 a{
+    text-align: left;
+}
+
+.center{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+div ul button{
+    padding: 12px;
+    color: black;
+    align-items: center;
+    
+}
+
+div h1 button{
+    padding: 12px;
+    color: black;
+    align-items: left;
+   
+}
+
+div a{
+    padding: 8px;
+    color: black;
+    align-items: center;
+    border-color: aqua;
+    text-size-adjust: 5px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: grey;   
+}
+
+div a:hover{
+    color: grey;
+}
+
+.container img:hover{
+    color:black
+}
+nav h1{
+   display: flex; 
+   border-width: 15px;
+
+}
+
+ul h1{
+    display: flex;
+    margin: 15px;
+    
+}
+
+nav a{    /*texto do início*/
+    display: -ms-flexbox;
+    margin: auto;
+    
+}
+
+.topo{ /* Meu cabessário*/
+    display: grid;
+    border-style: groove;
+    background-color:  rgb(99, 46, 134);
+    margin: auto;
+    border-top: 15px;    
+
+}
+
+.topo a{ /*stilo das letras do topo*/ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+   
+div ul a{
+    list-style: none;
+    justify-content: space-between;
+    margin: center;
+    width: 15px;
+    height: 15px;
+    
+
+}
+
+div nav ul a{
+    list-style: none;
+    justify-content: space-between;
+    margin: auto 0;
+    width: 15px;
+    height: 15px;
+  
+
+}
+footer{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 20px;
+    margin: auto;
+    padding: auto;
+    height:600px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+footer .container{  /* footer configurações de divisão */
+    display: flex;
+    color: rgb(87, 87, 161);
+    margin: auto auto;
+    padding: auto;
+    
+
+
+}
+
+/*span .blocoa ul{
+    display: block;
+    align-items: center;
+    background-color: hsl(207, 27%, 17%); configuração de botões n o span
+    margin: auto;
+    padding: auto; */
+
+
+span ul div{
+    margin: auto 0;
+    padding: auto 0;
+
+    
+}
+
+/*span button{
+    align-items: center; /*configuração dos botões
+    width: 140px;
+    height: 250px;
+    margin: auto;
+    padding: auto;
+    background-color: #c8d6ca;
+    background-color: rgb(139, 189, 139); */
+
+.bloco1:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.2)
+
+}
+footer img{ /* imagem do footer ou rodapé*/
+    width: 45px;
+    height: 45px;
+    align-items: center;
+
+}
+
+span ul a{ /* alinhamento das scritas na grade */
+
+    font-size:medium;
+    width: 2%;
+    color: blue;
+
+         
+}
+
+footer .container ul{
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    
+    
+}
+
+footer .container p{ /*Letras maiores do footer*/
+    margin-bottom: 16px;
+    font-weight: 600px;
+    margin: 0 auto;
+    padding: auto;
+    font-size: 15px;
+    width: auto;
+    
+}
+
+footer .container ul > p{
+    margin: 0 auto;
+ 
+   
+}
+
+footer .container li{
+    margin: auto 0;
+    
+}
+
+footer .container a{ /* Configurações das letras do footer*/
+    color: white;
+    font-size: 15px;
+    margin: auto;
+    padding: auto;
+    width: auto;
+     
+}
+ 
+ul p{
+    font-size: x-small;
+}
+
+.button1{   
+    border-radius: 100%;
+    margin: auto;
+}
+
+.button2{
+    border: solid 5px rgb(207, 207, 221);
+    border-radius: 20px;
+    color: rgb(184, 184, 197);
+    margin: auto 0;
+    height: 15px;
+    width: 16px;
+    background-color: white; /*botão inicial */
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.button3{
+    border: solid 5px rgb(207, 207, 221);
+    border-radius: 20px;
+    color: rgb(184, 184, 197);
+    margin: auto;
+    height: 35px;
+    width: 70px;
+    background-color: white; /*botão grade inicial */
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.button3:hover{
+    background-color: rgb(206, 199, 206);
+    color: black;
+    transform: scale(1.2)
+}
+
+.button2:hover{
+    background-color: rgb(109, 46, 134);
+    color: rgb(255, 255, 255);
+    transform: scale(1.2)
+}
+
+
+section .container{ /* grade de posts*/
+    margin: 100%;
+    padding: auto 0;
+    align-items: justify;
+    display: flex;
+    margin: 10px;
+    padding: auto;
+
+
+   
+}
+/* PAra baixxo botão de estilo*/
+button class{
+
+    display: flex;
+}
+
+body {
+    transition: background-color 0.5s ease;
+  }
+
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .light-mode {
+    background-color: #fff;
+    color: #333;
+    
+  }
+
+  .light-mode p{
+
+    color:rgb(99, 107, 86);
+    margin: auto;
+    text-align: center;
+  }
+
+  .light-mode p{
+    color: rgb(99, 107, 86);
+    margin: auto;
+    text-align: center;
+
+  }
+
+
+  button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  /*fim de botão de estilo */
+
+
