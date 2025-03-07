@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css"  href="stilo.css"   media="screen">
+    <link rel="stylesheet" type="text/css"  href="css/stilo.css"   media="screen">
     <style>
         body {
             display: flex;
@@ -60,6 +60,11 @@
 
 
         }
+
+        textarea{
+            width: 385px;
+            height: 500px;
+        }
     </style>
     <title>Formulário</title>
 </head>
@@ -67,13 +72,12 @@
     <section>
     <img src="logos/logo.jpg" style="width: 55px; height:66px;">
     <form
-        action="https://formspree.io/f/mdorbazw"
-        method="POST">
+        action="https://formspree.io/f/mdorbazw" method="POST"> <!-- Email usado; descomplicaif.edu@gmail.com-->
           <a>Seu email:</a><br>
-          <input type="email" name="email">
-        </label>
+          <input type="email" name="email"> 
+         
         <label>
-          <a>Descreve sua dúvida abaixo</a><br>
+          <a>Descreva um relatório abaixo sobre alguma dúvida, sugestões, ou relate algum bug no website!</a><br>
           <textarea name="message"></textarea>
         </label><br>
         <input type="submit"></input>
